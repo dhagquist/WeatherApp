@@ -3,7 +3,7 @@ Weather app using the Dark Sky Forecast API (JSON), output via HTML, PHP, and CS
 
 Screenshot:
 
-![alt tag](http://i.imgur.com/fljtTdM.png)
+![Weather App](http://i.imgur.com/fljtTdM.png)
 
 Live demo:
 
