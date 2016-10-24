@@ -13,7 +13,7 @@ $longitude = $geoplugin->longitude;
 $latitude = $geoplugin->latitude;
 
 // Parse weather data from Dark Sky Forecast API via JSON
-$key = "f41b1e77c21c3c28d8f980f00d46d739";
+$key = "YOUR_API_KEY"; // Replace this string with your Dark Sky Forecast API key
 $url = "https://api.darksky.net/forecast/" . $key . "/" . $latitude . "," . $longitude;
 $json = file_get_contents($url);
 $data = json_decode($json);
